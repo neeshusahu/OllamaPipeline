@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{819607B7-AAA5-4CD5-84CB-6EB7A3AB8294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaNet", "src\OllamaNet\OllamaNet.csproj", "{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{E124CD2D-0E97-4CDD-866D-1F978C8CD2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaNet.Client", "client\OllamaNet.Client\OllamaNet.Client.csproj", "{C267D908-FADF-44EF-84C8-27830173E15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9FDBB67-58D4-4DC0-B1A1-D2931EBF9C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaNetTest", "tests\OllamaNetTest\OllamaNetTest.csproj", "{61A58709-0BF8-4718-9BEF-F226E60ACA34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C267D908-FADF-44EF-84C8-27830173E15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C267D908-FADF-44EF-84C8-27830173E15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C267D908-FADF-44EF-84C8-27830173E15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C267D908-FADF-44EF-84C8-27830173E15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A58709-0BF8-4718-9BEF-F226E60ACA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A58709-0BF8-4718-9BEF-F226E60ACA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A58709-0BF8-4718-9BEF-F226E60ACA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A58709-0BF8-4718-9BEF-F226E60ACA34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E4D0DCF-1FA8-493B-BE1A-92A57DE330E0} = {819607B7-AAA5-4CD5-84CB-6EB7A3AB8294}
+		{C267D908-FADF-44EF-84C8-27830173E15F} = {E124CD2D-0E97-4CDD-866D-1F978C8CD2A8}
+		{61A58709-0BF8-4718-9BEF-F226E60ACA34} = {A9FDBB67-58D4-4DC0-B1A1-D2931EBF9C6F}
+	EndGlobalSection
+EndGlobal
