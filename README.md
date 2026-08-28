@@ -1,6 +1,6 @@
 # OllamaNet
 
-A .NET 9 client library for locally running [Ollama](https://ollama.com/) with built-in resilience.
+A .NET client library for locally running [Ollama](https://ollama.com/) with built-in resilience.
 
 ## Features
 
