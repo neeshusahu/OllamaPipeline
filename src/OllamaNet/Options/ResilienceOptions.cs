@@ -9,9 +9,3 @@ public sealed class ResilienceOptions
     public TimeSpan Window { get; set; } = TimeSpan.FromSeconds(20);
     public TimeSpan MaxWait { get; set; } = TimeSpan.FromSeconds(30);
 }
-//10 requests
-/* 
-Rate limiter -5 requests at 10:00
-will be there till 10:01
-10:00:30 Max wait
-*/

@@ -40,9 +40,7 @@ public sealed class ResiliencePipeline
         }
     }
 
-    // Only genuine connectivity/server-health problems should trip the circuit breaker.
-    // A 4xx response (bad request, unknown model, etc.) is a problem with that specific
-    // request, not a signal that Ollama itself is unhealthy, so it shouldn't count as a failure.
+
     private static bool IsInfrastructureFailure(Exception exception)
     {
         return exception is HttpRequestException { StatusCode: null or >= System.Net.HttpStatusCode.InternalServerError };
