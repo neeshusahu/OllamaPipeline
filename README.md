@@ -130,7 +130,7 @@ src/OllamaNet/
 ├── Options/
 ├── HttpClient/
 ├── ModelClient/
-├── RateLimiter/
+├── Resilience/
 ├── Request/
 ├── Response/
 ├── ExceptionHandler/
