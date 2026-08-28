@@ -1,4 +1,4 @@
-# OllamaNet
+# OllamaPipeline
 
 A .NET client library for locally running [Ollama](https://ollama.com/) with built-in resilience.
 
@@ -28,13 +28,13 @@ ollama pull nomic-embed-text
 Build the package locally:
 
 ```bash
-dotnet pack src/OllamaNet/OllamaNet.csproj -c Release
+dotnet pack src/OllamaPipeline/OllamaPipeline.csproj -c Release
 ```
 
 Install the package:
 
 ```bash
-dotnet add package OllamaNet --source src/OllamaNet/bin/Release
+dotnet add package OllamaPipeline --source src/OllamaPipeline/bin/Release
 ```
 
 ## Usage
@@ -126,7 +126,7 @@ services.AddOllamaNetConfig(options =>
 ## Project Structure
 
 ```text
-src/OllamaNet/
+src/OllamaPipeline/
 ├── Options/
 ├── HttpClient/
 ├── ModelClient/

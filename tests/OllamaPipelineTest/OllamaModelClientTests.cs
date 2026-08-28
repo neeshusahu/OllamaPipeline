@@ -2,7 +2,7 @@ using System.Net.Http.Json;
 using Microsoft.Extensions.Options;
 using Moq;
 
-namespace OllamaNetTest;
+namespace OllamaPipelineTest;
 
 public class OllamaModelClientTests
 {

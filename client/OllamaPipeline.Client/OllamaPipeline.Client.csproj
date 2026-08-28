@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/OllamaNet/OllamaNet.csproj" />
+    <ProjectReference Include="../../src/OllamaPipeline/OllamaPipeline.csproj" />
   </ItemGroup>
 
 </Project>
